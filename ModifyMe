@@ -2,11 +2,18 @@ public class ModifyMe
 {
   public static void main(String[] args)
   {
+    int modified = 0;
     System.out.println("Add code to this program...");
     
     System.out.println("I have been modified");
+    modified++;
     
     System.out.println("I have been modified again");
+    modified++;
+    
     //Thou hath been modify'd again.
+    System.out.println("This program has been modified several times.");
+    modified++;
+    System.out.print(modified);
   }
 }    
